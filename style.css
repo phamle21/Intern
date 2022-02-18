@@ -34,6 +34,16 @@
     position: absolute;
 }
 .img-destinations{
-    width: 100%;
+    width: inherit;
     height: 400px !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-bookatrip{
+    box-shadow: 0 0 20px -10px gray;
+    border-radius: 30px;
+}
+.icon-bookatrip i{
+    background-color: #f5f5f5;
+    border-radius: 50%;
 }
