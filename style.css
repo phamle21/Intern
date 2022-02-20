@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center center;
     background-repeat:  no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 #playdemo:hover{
     cursor: pointer;
@@ -48,7 +48,6 @@
     border-radius: 50%;
 }
 .list-item-testimonials{
-    
     display: none;
 }
 .show{
@@ -57,4 +56,25 @@
 
 .btn-testimonials:hover{
     background-color: #cecece;
+}
+.wrap-testimonials{
+    overflow: hidden;
+}
+#subscribe{
+    background-image: url('./img/Group-subscribe.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    color: #5E6282;
+}
+#input-subscribe{
+    /* width: 20em; */
+    border-radius: 10px;
+}
+#input-subscribe::placeholder{
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    
 }
