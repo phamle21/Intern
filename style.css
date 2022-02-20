@@ -7,7 +7,7 @@
 }
 #playdemo:hover{
     cursor: pointer;
-    text-shadow: 0 0 6px red;
+    text-shadow: 0 0 3px red;
 }
 #title-hero{
     font-size: 50px;
@@ -46,4 +46,15 @@
 .icon-bookatrip i{
     background-color: #f5f5f5;
     border-radius: 50%;
+}
+.list-item-testimonials{
+    
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.btn-testimonials:hover{
+    background-color: #cecece;
 }
