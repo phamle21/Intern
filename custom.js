@@ -45,3 +45,11 @@ $(document).ready( () => {
 })
 
 
+$('#icon-heart-hover').on('mouseover', () => {
+    $('#tooltips-heart').removeClass("d-none")
+})
+$('#icon-heart-hover').on('mouseout', () => {
+    $('#tooltips-heart').addClass("d-none")
+})
+
+
