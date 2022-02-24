@@ -15,520 +15,639 @@
 </head>
 
 <body>
-    <div class="container-fluid vh-100 " id="hero">
+    <main class="main">
+
+        <!-- ============================= -->
+        <!-- navbar  -->
+        <nav class="container navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+            <div class="container ">
+                <a class="navbar-brand " href="#"><img src="./img/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- menu -->
+                <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link m-3  " aria-current="page" href="#destinations">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-3" href="#">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-3" href="#">Flights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-3" href="#booking">Bookings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-3" href="#">Login</a>
+                        </li>
+                        <li class="btn btn-outline-secondary m-3">
+                            <a class="nav-link p-0 ps-2 pe-2" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item dropdown m-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu" style="min-width:fit-content;"
+                                aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Vi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- /navbar  -->
 
         <!-- hero -->
-        <div class="container row m-auto mb-5">
-            <!-- navbar  -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container ">
-                    <a class="navbar-brand " href="#"><img src="./img/Logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- menu -->
-                    <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavDropdown">
-                        <ul class="navbar-nav align-items-center">
-                            <li class="nav-item">
-                                <a class="nav-link m-3 active " aria-current="page"
-                                    href="#destinations">Desitnations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link m-3" href="#">Hotels</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link m-3" href="#">Flights</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link m-3" href="#booking">Bookings</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link m-3" href="#">Login</a>
-                            </li>
-                            <li class="btn btn-outline-secondary m-3">
-                                <a class="nav-link p-0 ps-2 pe-2" href="#">Sign up</a>
-                            </li>
-                            <li class="nav-item dropdown m-3" >
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    EN
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Vi</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- /navbar  -->
-            <div class="container justify-content-center">
-                <div class="row flex-row align-items-center">
-                    <!-- left hero -->
-                    <div class="col">
-                        <img src="" class="img-fluid" alt="">
-                        <div class="row">
-                            <p class="fw-bold text-uppercase text-danger">
-                                Best Destinations around the world
-                            </p>
-                        </div>
-                        <div class="row">
-                            <p class="fw-bold text" id="title-hero">
-                                Travel, enjoy
-                                and live a new
-                                and full life
-                            </p>
-                        </div>
-                        <div class="row">
-                            <p>
-                                Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
-                                engrossed listening. Park gate sell they west hard for the.
-                            </p>
-                        </div>
-                        <div class="row d-flex align-items-center">
-                            <div class="col-6">
-                                <button class="btn btn-warning p-3 pt-2 pb-2 text-light" id="btn-findOutMore">Find out
-                                    more</button>
+        <section id="hero" class="vh-100">
+            <div class="container row m-auto mt-5">
+                <!-- home -->
+                <div class="container justify-content-center">
+                    <div class="row flex-row align-items-center">
+                        <!-- left hero -->
+                        <div class="col">
+                            <img src="" class="img-fluid" alt="">
+                            <div class="row">
+                                <p class="fw-bold text-uppercase text-danger">
+                                    Best Destinations around the world
+                                </p>
                             </div>
-                            <div class="col p-0 m-0 d-flex align-items-center" id="playdemo">
-                                <i class="fa-solid fa-circle-play fs-1 m-0 me-3 text-danger"></i>
-                                <p class="text-secondary d-inline m-0">Play Demo</p>
+                            <div class="row">
+                                <p class="fw-bold text" id="title-hero">
+                                    Travel, enjoy
+                                    and live a new
+                                    and full life
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen
+                                    it
+                                    engrossed listening. Park gate sell they west hard for the.
+                                </p>
+                            </div>
+                            <div class="row d-flex align-items-center">
+                                <div class="col-6">
+                                    <button class="btn btn-warning p-3 pt-2 pb-2 text-light" id="btn-findOutMore">Find
+                                        out
+                                        more</button>
+                                </div>
+                                <div class="col p-0 m-0 d-flex align-items-center" id="playdemo">
+                                    <i class="fa-solid fa-circle-play fs-1 m-0 me-3 text-danger"></i>
+                                    <p class="text-secondary d-inline m-0">Play Demo</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- right hero -->
-                    <div class="col-sm-8 col-md-8">
-                        <img src="./img/Image.png" class="img-fluid rounded mx-auto d-md-block d-none"
-                            style="width: 75%;" alt="">
+                        <!-- right hero -->
+                        <div class="col-sm-5 col-md-5 col-lg-7 d-lg-block d-none">
+                            <img src="./img/Image.png" class="img-fluid rounded mx-auto d-md-block d-none"
+                                style="width: 75%;" alt="">
+                        </div>
                     </div>
                 </div>
+                <!-- /home -->
             </div>
-        </div>
+        </section>
         <!-- /hero -->
+        <!-- ============================= -->
 
+
+        <!-- ============================= -->
         <!-- Services -->
-        <div class="container d-flex flex-column mt-5">
-            <div class="row m-auto text-center">
-                <div class="col-12 ">
-                    <p class="text-uppercase text-secondary m-0">
-                        CATEGORY
-                    </p>
-                    <p class="fw-bold fs-1 text-capitalizeap m-0">
-                        We Offer Best Services
-                    </p>
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-md bg-light text-center m-4 ms-0 p-3 img-services">
-                    <img src="./img/Group 48.png" class="img-fluid" style="min-height:110px" alt="">
-                    <p class="fw-bold">
-                        Calculated Weather
-                    </p>
-                    <p>
-                        Built Wicket longer admire do barton vanity itself do in it.
-                    </p>
-                </div>
-                <div class="col-md bg-light text-center m-4 ms-0 p-3 img-services ">
-                    <img src="./img/Group 51.png" class="img-fluid" style="min-height:110px" alt="">
-                    <p class="fw-bold">
-                        Best Flights
-                    </p>
-                    <p>
-                        Engrossed listening. Park gate sell they west hard for the.
-                    </p>
-                </div>
-                <div class="col-md bg-light text-center m-4 ms-0 p-3 img-services">
-                    <img src="./img/Group 50.png" class="img-fluid" style="min-height:110px" alt="">
-                    <p class="fw-bold">
-                        Local Events
-                    </p>
-                    <p>
-                        Barton vanity itself do in it. Preferd to men it engrossed listening.
-                    </p>
-                </div>
-                <div class="col-md bg-light text-center m-4 ms-0 p-3 img-services">
-                    <img src="./img/Group 49.png" class="img-fluid" style="min-height:110px" alt="">
-                    <p class="fw-bold">
-                        Customization
-                    </p>
-                    <p>
-                        We deliver outsourced aviation services for military customers
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- /Services -->
-
-        <!-- Destinations -->
-        <div class="container d-flex flex-column mt-5">
-            <div class="row m-auto text-center">
-                <div class="col-12 ">
-                    <p class="text-secondary m-0">
-                        Top Selling
-                    </p>
-                    <p class="fw-bold fs-1 text-capitalizeap m-0">
-                        Top Destinations
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md text-center p-0 m-3 ms-0 img-services border">
-                    <img src="./img/rome.png" class="img-fluid img-destinations" alt="">
-                    <div class="container mt-3 mb-2 d-flex justify-content-between">
-                        <p class="fw-normal">
-                            Rome, Italty
-                        </p>
-                        <p>
-                            $5,42k
-                        </p>
-                    </div>
-                    <div class="container m-0 pt-0 mb-3 d-flex align-items-center ">
-                        <i class="fa fa-carrot"> </i>
-                        <p class="m-0 p-0 ps-2 ">10 Days Trip</p>
-                    </div>
-                </div>
-                <div class="col-md text-center p-0 m-3 ms-0 img-services border">
-                    <img src="./img/london.jpg" class="img-fluid img-destinations" alt="">
-                    <div class="container mt-3 mb-2 d-flex justify-content-between">
-                        <p class="fw-normal">
-                            London, UK
-                        </p>
-                        <p>
-                            $4.2k
-                        </p>
-                    </div>
-                    <div class="container m-0 pt-0 mb-3 d-flex align-items-center">
-                        <i class="fa fa-carrot"> </i>
-                        <p class="m-0 p-0 ps-2 ">12 Days Trip</p>
-                    </div>
-                </div>
-                <div class="col-md text-center p-0 m-3 ms-0 img-services border">
-                    <img src="./img/europe.png" class="img-fluid img-destinations" alt="">
-                    <div class="container mt-3 mb-2 d-flex justify-content-between">
-                        <p class="fw-normal">
-                            Full Europe
-                        </p>
-                        <p>
-                            $15k
-                        </p>
-                    </div>
-                    <div class="container m-0 pt-0 mb-3 d-flex align-items-center">
-                        <i class="fa fa-carrot"> </i>
-                        <p class="m-0 p-0 ps-2 ">28 Days Trip</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Destinations -->
-
-        <!-- Book a trip -->
-        <div class="container d-flex flex-row mt-5">
-            <div class="row">
-                <div class="col-md flex-column">
-                    <div class="row">
-                        <p class="text-secondary m-0">
-                            Easy and Fast
+        <section id="services">
+            <div class="container d-flex flex-column mt-5">
+                <div class="row m-auto text-center">
+                    <div class="col-12 ">
+                        <p class="text-uppercase text-secondary m-0">
+                            CATEGORY
                         </p>
                         <p class="fw-bold fs-1 text-capitalizeap m-0">
-                            Book your next trip in 3 easy steps
+                            We Offer Best Services
                         </p>
                     </div>
-                    <div class="row mt-4 mb-4">
-                        <div class="row">
-                            <div class="col col-md mt-1">
-                                <img src="./img/Group 7.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-9 col-md-10 m-0 p-0">
-                                <p class="fw-bold m-0 p-0">
-                                    Choose Destination
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-md mt-1">
-                                <img src="./img/Group 12.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-9 col-md-10 m-0 p-0">
-                                <p class="fw-bold m-0 p-0">
-                                    Make Payment
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-md mt-1">
-                                <img src="./img/Group 11.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-9 col-md-10 m-0 p-0">
-                                <p class="fw-bold m-0 p-0">
-                                    Reach Airport on Selected Date
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
-                                </p>
-                            </div>
-                        </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md bg-transparent text-center m-4 ms-0 p-3 img-services">
+                        <img src="./img/Group 48.png" class="img-fluid" style="min-height:110px" alt="">
+                        <p class="fw-bold">
+                            Calculated Weather
+                        </p>
+                        <p>
+                            Built Wicket longer admire do barton vanity itself do in it.
+                        </p>
+                    </div>
+                    <div class="col-md bg-transparent text-center m-4 ms-0 p-3 img-services ">
+                        <img src="./img/Group 51.png" class="img-fluid" style="min-height:110px" alt="">
+                        <p class="fw-bold">
+                            Best Flights
+                        </p>
+                        <p>
+                            Engrossed listening. Park gate sell they west hard for the.
+                        </p>
+                    </div>
+                    <div class="col-md bg-transparent text-center m-4 ms-0 p-3 img-services">
+                        <img src="./img/Group 50.png" class="img-fluid" style="min-height:110px" alt="">
+                        <p class="fw-bold">
+                            Local Events
+                        </p>
+                        <p>
+                            Barton vanity itself do in it. Preferd to men it engrossed listening.
+                        </p>
+                    </div>
+                    <div class="col-md bg-transparent text-center m-4 ms-0 p-3 img-services">
+                        <img src="./img/Group 49.png" class="img-fluid" style="min-height:110px" alt="">
+                        <p class="fw-bold">
+                            Customization
+                        </p>
+                        <p>
+                            We deliver outsourced aviation services for military customers
+                        </p>
                     </div>
                 </div>
-                <div class="col-sm d-flex align-items-center justify-content-center">
-                    <div class="d-md-flex flex-column p-3  card-bookatrip">
-                        <div class="p-1">
-                            <img src="./img/Rectangle 17.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="d-flex flex-column">
-                            <p class="fw-bold">
-                                Trip To Greece
-                            </p>
-                            <p class="text-secondary">
-                                14-29 June| by Robbin joseph
-                            </p>
-                            <div class="icon-bookatrip mb-3">
-                                <i class="fas fa-leaf p-2 text-muted m-2"></i>
-                                <i class="far fa-map p-2 text-muted m-2"></i>
-                                <i class="fas fa-carrot p-2 text-muted m-2"></i>
-                            </div>
-                            <!-- heart hover -->
-                            <div class="position-absolute d-flex col-md-2 bg-light mt-4 d-none" id="tooltips-heart"
-                                style="border-radius: 20px; margin-left: 15em;">
-                                <div class="p-2">
-                                    <img src="./img/Mask Group.png" alt="">
+            </div>
+        </section>
+        <!-- /Services -->
+        <!-- ============================= -->
+
+
+        <!-- ============================= -->
+        <!-- Destinations -->
+        <section id="destinations">
+            <div class="container d-flex flex-column mt-5">
+                <div class="row m-auto text-center">
+                    <div class="col-12 ">
+                        <p class="text-secondary m-0">
+                            Top Selling
+                        </p>
+                        <p class="fw-bold fs-1 text-capitalizeap m-0">
+                            Top Destinations
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+
+                    <div class="col-md">
+                        <div class="card border-radius-30">
+                            <img src="./img/dest1.jpg" alt="" class="img-fluid card-img-top border-radius-top-30">
+                            <div class="card-body">
+                                <div class="row py-2">
+                                    <div class="col">
+                                        <p class="card-text">
+                                            Rome, Italy
+                                        </p>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <p class="card-text">
+                                            $4.2k
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="p-2">
-                                    <p class="m-0" style="color:#84829A">Ongoing</p>
-                                    <p class="m-0 mb-2 fw-bold">Trip to rome</p>
-                                    <p class="d-inline text-primary">40%</p>
-                                    <p class="d-inline m-0"> complete</p>
-                                    <div class="progress" style="height: 5px;">
-                                        <div class="progress-bar" role="progressbar"
-                                            style="width: 40%; border-radius: 30px;" aria-valuenow="25"
-                                            aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="row py-2 ">
+                                    <div class="col-1">
+                                        <i class="fa fa-location-arrow"></i>
+                                    </div>
+                                    <div class="col">
+                                        <p class="card-text">
+                                            10 Days Trip
+                                        </p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- /heart hover -->
-                            <div class="d-flex text-secondary align-items-center justify-content-between">
-                                <div class="d-flex ">
-                                    <i class="fa fa-building"></i>
-                                    <p class=" m-0 ms-2">
-                                        24 people going
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card border-radius-30">
+                            <img src="./img/dest2.jpg" alt="" class="img-fluid card-img-top border-radius-top-30">
+                            <div class="card-body">
+                                <div class="row py-2">
+                                    <div class="col">
+                                        <p class="card-text">
+                                            Rome, Italy
+                                        </p>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <p class="card-text">
+                                            $4.2k
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row py-2 ">
+                                    <div class="col-1">
+                                        <i class="fa fa-location-arrow"></i>
+                                    </div>
+                                    <div class="col">
+                                        <p class="card-text">
+                                            10 Days Trip
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card border-radius-30">
+                            <img src="./img/dest3.jpg" alt="" class="img-fluid card-img-top border-radius-top-30">
+                            <div class="card-body">
+                                <div class="row py-2">
+                                    <div class="col">
+                                        <p class="card-text">
+                                            Rome, Italy
+                                        </p>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                        <p class="card-text">
+                                            $4.2k
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row py-2 ">
+                                    <div class="col-1">
+                                        <i class="fa fa-location-arrow"></i>
+                                    </div>
+                                    <div class="col">
+                                        <p class="card-text">
+                                            10 Days Trip
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /Destinations -->
+        <!-- ============================= -->
+
+
+        <!-- ============================= -->
+        <!-- Book a trip -->
+        <section id="book-a-trip">
+            <div class="container d-flex flex-row mt-5">
+                <div class="row">
+                    <div class="col-md flex-column">
+                        <div class="row">
+                            <p class="text-secondary m-0">
+                                Easy and Fast
+                            </p>
+                            <p class="fw-bold fs-1 text-capitalizeap m-0">
+                                Book your next trip in 3 easy steps
+                            </p>
+                        </div>
+                        <div class="row mt-4 mb-4">
+                            <div class="row">
+                                <div class="col col-md mt-1">
+                                    <img src="./img/Group 7.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-9 col-md-10 m-0 p-0">
+                                    <p class="fw-bold m-0 p-0">
+                                        Choose Destination
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
                                     </p>
                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md mt-1">
+                                    <img src="./img/Group 12.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-9 col-md-10 m-0 p-0">
+                                    <p class="fw-bold m-0 p-0">
+                                        Make Payment
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md mt-1">
+                                    <img src="./img/Group 11.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-9 col-md-10 m-0 p-0">
+                                    <p class="fw-bold m-0 p-0">
+                                        Reach Airport on Selected Date
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm d-flex align-items-center justify-content-center">
+                        <div class="d-md-flex flex-column p-3  card-bookatrip">
+                            <div class="p-1">
+                                <img src="./img/Rectangle 17.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <p class="fw-bold">
+                                    Trip To Greece
+                                </p>
+                                <p class="text-secondary">
+                                    14-29 June| by Robbin joseph
+                                </p>
+                                <div class="icon-bookatrip mb-3">
+                                    <i class="fas fa-leaf p-2 text-muted m-2"></i>
+                                    <i class="far fa-map p-2 text-muted m-2"></i>
+                                    <i class="fas fa-carrot p-2 text-muted m-2"></i>
+                                </div>
+                                <!-- heart hover -->
+                                <div class="position-absolute d-flex col-md-2 bg-light mt-4 d-none" id="tooltips-heart"
+                                    style="border-radius: 20px; margin-left: 15em;">
+                                    <div class="p-2">
+                                        <img src="./img/Mask Group.png" alt="">
+                                    </div>
+                                    <div class="p-2">
+                                        <p class="m-0" style="color:#84829A">Ongoing</p>
+                                        <p class="m-0 mb-2 fw-bold">Trip to rome</p>
+                                        <p class="d-inline text-primary">40%</p>
+                                        <p class="d-inline m-0"> complete</p>
+                                        <div class="progress" style="height: 5px;">
+                                            <div class="progress-bar" role="progressbar"
+                                                style="width: 40%; border-radius: 30px;" aria-valuenow="25"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /heart hover -->
+                                <div class="d-flex text-secondary align-items-center justify-content-between">
+                                    <div class="d-flex ">
+                                        <i class="fa fa-building"></i>
+                                        <p class=" m-0 ms-2">
+                                            24 people going
+                                        </p>
+                                    </div>
 
-                                <div>
-                                    <i class="far fa-heart" id="icon-heart-hover"></i>
-                                    <!-- <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
-                                        data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
-                                        Tooltip with HTML
-                                    </button> -->
+                                    <div>
+                                        <i class="far fa-heart" id="icon-heart-hover"></i>
+                                        <!-- <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                                            data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+                                            Tooltip with HTML
+                                        </button> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- /Book a trip -->
+        <!-- ============================= -->
 
+
+        <!-- ============================= -->
         <!-- Testimonials -->
-        <div class="container mt-5">
-            <div class="row justify-content-between">
-                <div class="col-md">
-                    <p class="text-uppercase">
-                        Testimonials
-                    </p>
-                    <p class="fs-1 fw-bold text-capitalize" id="title-testimonials">
-                        What people say about Us.
-                    </p>
-                    <div class="container d-flex mt-5">
-                        <li class="li-testimonials fs-2 text-secondary"></li>
-                        <li class="li-testimonials fs-2 text-secondary"></li>
-                        <li class="li-testimonials fs-2 text-secondary"></li>
+        <section id="testimonials">
+            <div class="container mt-5">
+                <div class="row justify-content-between">
+                    <div class="col-md">
+                        <p class="text-uppercase">
+                            Testimonials
+                        </p>
+                        <p class="fs-1 fw-bold text-capitalize" id="title-testimonials">
+                            What people say about Us.
+                        </p>
+                        <div class="container d-flex mt-5">
+                            <li class="li-testimonials fs-2 text-secondary"></li>
+                            <li class="li-testimonials fs-2 text-secondary"></li>
+                            <li class="li-testimonials fs-2 text-secondary"></li>
+                        </div>
                     </div>
-                </div>
-                <div class="col row">
-                    <div class="col wrap-testimonials">
+                    <div class="col row">
+                        <div class="col wrap-testimonials">
 
-                        <div class="list-item-testimonials">
-                            <div class="ms-2">
-                                <img src="./img/Image (1).png" class="img-fluid" alt="">
+                            <div class="list-item-testimonials">
+                                <div class="ms-2">
+                                    <img src="./img/Image (1).png" class="img-fluid" alt="">
+                                </div>
+                                <div class="border ms-5 p-3 text-secondary bg-light content-card-testimonials"
+                                    style="border-radius: 15px;">
+                                    <p>
+                                        “On the Windows talking painted pasture yet its express parties use. Sure last
+                                        upon
+                                        he
+                                        same as knew next. Of believed or diverted no.”
+                                    </p>
+                                    <p class="fw-bold fs-4 m-0 mt-3">
+                                        Mike taylor
+                                    </p>
+                                    <p class="m-0">Lahore, Pakistan</p>
+                                </div>
                             </div>
-                            <div class="border ms-5 p-3 text-secondary bg-light content-card-testimonials"
-                                style="border-radius: 15px;">
-                                <p>
-                                    “On the Windows talking painted pasture yet its express parties use. Sure last upon
-                                    he
-                                    same as knew next. Of believed or diverted no.”
-                                </p>
-                                <p class="fw-bold fs-4 m-0 mt-3">
-                                    Mike taylor
-                                </p>
-                                <p class="m-0">Lahore, Pakistan</p>
+                            <div class="list-item-testimonials">
+                                <div class="ms-2">
+                                    <img src="./img/Image (1).png" class="img-fluid" alt="">
+                                </div>
+                                <div class="border ms-5 p-3 text-secondary bg-light content-card-testimonials"
+                                    style="border-radius: 15px;">
+                                    <p>
+                                        “On the Windows talking painted pasture yet its express parties use. Sure last
+                                        upon
+                                        he
+                                        same as knew next. Of believed or diverted no.”
+                                    </p>
+                                    <p class="fw-bold fs-4 m-0 mt-3">
+                                        Chris Thomas
+                                    </p>
+                                    <p class="m-0">CEO of Red Button</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="list-item-testimonials">
-                            <div class="ms-2">
-                                <img src="./img/Image (1).png" class="img-fluid" alt="">
+                            <div class="list-item-testimonials">
+                                <div class="ms-2">
+                                    <img src="./img/Image (1).png" class="img-fluid" alt="">
+                                </div>
+                                <div class="border ms-5 p-3 text-secondary bg-light content-card-testimonials"
+                                    style="border-radius: 15px;">
+                                    <p>
+                                        “On the Windows talking painted pasture yet its express parties use. Sure last
+                                        upon
+                                        he
+                                        same as knew next. Of believed or diverted no.”
+                                    </p>
+                                    <p class="fw-bold fs-4 m-0 mt-3">
+                                        P Le
+                                    </p>
+                                    <p class="m-0">CEO of Red Button</p>
+                                </div>
                             </div>
-                            <div class="border ms-5 p-3 text-secondary bg-light content-card-testimonials"
-                                style="border-radius: 15px;">
-                                <p>
-                                    “On the Windows talking painted pasture yet its express parties use. Sure last upon
-                                    he
-                                    same as knew next. Of believed or diverted no.”
-                                </p>
-                                <p class="fw-bold fs-4 m-0 mt-3">
-                                    Chris Thomas
-                                </p>
-                                <p class="m-0">CEO of Red Button</p>
-                            </div>
-                        </div>
-                        <div class="list-item-testimonials">
-                            <div class="ms-2">
-                                <img src="./img/Image (1).png" class="img-fluid" alt="">
-                            </div>
-                            <div class="border ms-5 p-3 text-secondary bg-light content-card-testimonials"
-                                style="border-radius: 15px;">
-                                <p>
-                                    “On the Windows talking painted pasture yet its express parties use. Sure last upon
-                                    he
-                                    same as knew next. Of believed or diverted no.”
-                                </p>
-                                <p class="fw-bold fs-4 m-0 mt-3">
-                                    P Le
-                                </p>
-                                <p class="m-0">CEO of Red Button</p>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div class="col-1 d-md-flex flex-column align-items-center justify-content-center">
-                        <i class="fas fa-chevron-up btn btn-light p-2 m-2 btn-testimonials" id="testimonials-up"></i>
-                        <i class="fas fa-chevron-down btn btn-light p-2 m-2 btn-testimonials"
-                            id="testimonials-down"></i>
+                        </div>
+                        <div class="col-1 d-md-flex flex-column align-items-center justify-content-center">
+                            <i class="fas fa-chevron-up btn btn-light p-2 m-2 btn-testimonials"
+                                id="testimonials-up"></i>
+                            <i class="fas fa-chevron-down btn btn-light p-2 m-2 btn-testimonials"
+                                id="testimonials-down"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- /Testimonials -->
+        <!-- ============================= -->
 
+
+        <!-- ============================= -->
         <!-- logos -->
-        <div class="container mt-5 mb-5">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md d-md-flex align-items-center" style="min-height: 130px;max-height: 130px">
-                    <img src="./img/image 28.png" class="m-0 p-0 img-fluid" alt="">
-                </div>
-                <div class="col-md d-md-flex align-items-center" style="min-height: 130px;max-height: 130px">
-                    <img src="./img/image 27.png" class="m-0 p-0 img-fluid" alt="">
-                </div>
-                <div class="col-md d-md-flex align-items-center" style="min-height: 130px;max-height: 130px">
-                    <img src="./img/image 29.png" class="m-0 p-0 img-fluid" alt="">
-                </div>
-                <div class="col-md d-md-flex align-items-center" style="min-height: 130px;max-height: 130px">
-                    <img src="./img/image 30.png" class="m-0 p-0 img-fluid" alt="">
-                </div>
-                <div class="col-md d-md-flex align-items-center" style="min-height: 130px;max-height: 130px">
-                    <img src="./img/image 31.png" class="m-0 p-0 img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- /logos -->
-
-        <!-- Subscribe -->
-        <div class="container p-5 mb-5 d-md-flex flex-column align-items-center" id="subscribe">
-            <div class="row text-center p-3">
-                <p class="fs-1 fw-bold">
-                    Subscribe to get information, latest news and other interesting offers about Jadoo
-                </p>
-            </div>
-            <form class="" action="#frmSubscribe" id="frm-subscribe">
-                <div class="row p-5 justify-content-center align-items-center">
-                    <div class="col-md text-center">
-                        <input class="border-0 p-3 ps-4 pe-4 m-3" id="input-subscribe" type="email"
-                            placeholder=" Your email">
+        <section id="logos">
+            <div class="container mt-5 mb-5">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md d-flex justify-content-center align-items-center" style="min-height: 150px;">
+                        <div class="card border-0">
+                            <div class="card-body text-center">
+                                <img src="./img/image 28.png" class="img-fluid" alt="logos">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md text-center">
-                        <button class="btn btn-danger border-0 p-3 ps-5 pe-5 m-3" style="background-image: linear-gradient(#FF946D, #FF7D68);
+                    <div class="col-md d-flex justify-content-center align-items-center" style="min-height: 150px;">
+                        <div class="card border-0">
+                            <div class="card-body text-center">
+                                <img src="./img/image 27.png" class="img-fluid" alt="logos">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex justify-content-center align-items-center" style="min-height: 150px;">
+                        <div class="card border-0">
+                            <div class="card-body text-center">
+                                <img src="./img/image 29.png" class="img-fluid" alt="logos">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex justify-content-center align-items-center" style="min-height: 150px;">
+                        <div class="card border-0">
+                            <div class="card-body text-center">
+                                <img src="./img/image 30.png" class="img-fluid" alt="logos">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md d-flex justify-content-center align-items-center" style="min-height: 150px;">
+                        <div class="card border-0">
+                            <div class="card-body text-center">
+                                <img src="./img/image 31.png" class="img-fluid" alt="logos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /logos -->
+        <!-- ============================= -->
+
+
+        <!-- ============================= -->
+        <!-- Subscribe -->
+        <section id="Subscribe">
+            <div class="container p-5 mb-5 d-md-flex flex-column align-items-center position-relative"
+                id="subscribe-body">
+                <div class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3">
+                    <img src="./img/Group 77.png" style="max-width:70px;" alt="send icon" />
+                </div>
+                <div class="row text-center p-3">
+                    <p class="fs-1 fw-bold">
+                        Subscribe to get information, latest news and other interesting offers about Jadoo
+                    </p>
+                </div>
+                <div class="row mt-md-5 mb-md-5 justify-content-center align-items-center">
+                    <div class="col-md">
+                        <form class="row w-100 m-0 p-0" action="#frmSubscribe" id="frm-subscribe">
+                            <div class="input-group">
+                                <input class="border-0 p-3 ps-3 pe-3 w-100 m-0" id="input-subscribe" type="email"
+                                    placeholder=" Your email">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2 ps-0 text-center">
+                        <button class="btn btn-danger border-0 p-3 ps-5 pe-5 mt-4 mt-md-0 " type="submit" style="background-image: linear-gradient(#FF946D, #FF7D68);
                                         border-radius: 10px;" from="frm-subscribe">
                             Subscribe
                         </button>
                     </div>
                 </div>
-            </form>
-        </div>
+            </div>
+        </section>
         <!-- /Subscribe -->
+        <!-- ============================= -->
 
+
+        <!-- ============================= -->
         <!-- footer -->
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="" class="img-fluid" alt="">
-                    <p class="fs-1 fw-bold">Jadoo.</p>
-                    <p>Book your trip in minute, get full Control for much longer.</p>
-                </div>
-                <div class="col">
-                    <p class="fs-3 fw-bold">Company</p>
-                    <ul class="list-group">
-                        <li class="list-group-item border-0">About</li>
-                        <li class="list-group-item border-0">Careers</li>
-                        <li class="list-group-item border-0">Mobile</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <p class="fs-3 fw-bold">Contact</p>
-                    <ul class="list-group">
-                        <li class="list-group-item border-0">Help/FAQ</li>
-                        <li class="list-group-item border-0">Press</li>
-                        <li class="list-group-item border-0">Affilates</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <p class="fs-3 fw-bold">More</p>
-                    <ul class="list-group">
-                        <li class="list-group-item border-0">Airlinefees</li>
-                        <li class="list-group-item border-0">Airline</li>
-                        <li class="list-group-item border-0">Low fare tips</li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <div class="col-md">
-                            <img src="./img/Social-fb.png" class="img-fluid" alt="">
+        <section id="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-12 mb-4 m-lg-0 col-sm-6 oder-0 d-flex flex-column  ">
+                        <img src="./img/logo2.svg" class="mb-4 img-fluid" width="150" alt="">
+                        <p class="">Book your trip in minute, get full Control for much longer.</p>
+                    </div>
+                    <div class="col-lg-2 col-sm mb-4 m-lg-0 order-2 order-lg-1">
+                        <p class="fs-3 fw-bold m-1">Company</p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="list-group-item border-0 ps-0">About</li>
+                            <li class="list-group-item border-0 ps-0">Careers</li>
+                            <li class="list-group-item border-0 ps-0">Mobile</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm mb-4 m-lg-0 order-3 order-lg-2">
+                        <p class="fs-3 fw-bold m-1">Contact</p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="list-group-item border-0 ps-0">Help/FAQ</li>
+                            <li class="list-group-item border-0 ps-0">Press</li>
+                            <li class="list-group-item border-0 ps-0">Affilates</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm mb-4 m-lg-0 order-4 order-lg-3">
+                        <p class="fs-3 fw-bold m-1">More</p>
+                        <ul class="list-unstyled mb-0">
+                            <li class="list-group-item border-0 ps-0">Airlinefees</li>
+                            <li class="list-group-item border-0 ps-0">Airline</li>
+                            <li class="list-group-item border-0 ps-0">Low fare tips</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12 mb-4 m-lg-0 col-sm-6 order-1 order-lg-4">
+                        <div class="row">
+                            <div class="col-3 col-sm-4">
+                                <img src="./img/Social-fb.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-3 col-sm-4"-2>
+                                <img src="./img/Social-ins.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-3 col-sm-4">
+                                <img src="./img/Social-tw.png" class="img-fluid" alt="">
+                            </div>
                         </div>
-                        <div class="col-md">
-                            <img src="./img/Social-ins.png" class="img-fluid" alt="">
+                        <div class="row">
+                            <p class="fs-5 text-secondary">
+                                Discover our app
+                            </p>
                         </div>
-                        <div class="col-md">
-                            <img src="./img/Social-tw.png" class="img-fluid" alt="">
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <img src="./img/Google Play.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col">
+                                <img src="./img/Play Store.png" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <p class="fs-5 text-secondary">
-                            Discover our app
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md">
-                            <img src="./img/Google Play.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md">
-                            <img src="./img/Play Store.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                </div>
+                <div class="row text-center m-5 mb-4">
+                    <p>All rights reserved@jadoo.co</p>
                 </div>
             </div>
-            <div class="row text-center mt-5">
-                <p>All rights reserved@jadoo.co</p>
-            </div>
-        </div>
+        </section>
         <!-- /footer -->
-    </div>
+        <!-- ============================= -->
+
+    </main>
+
 
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -538,6 +657,8 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="./custom.js"></script>
 </body>
 

@@ -72,6 +72,9 @@ $(document).ready(() => {
             }
         })
     })
+
+    $('#hero').css("padding-top", $('#navbar').height())
+
 })
 
 //Icon Heart Hover
@@ -82,8 +85,13 @@ $('#icon-heart-hover').on('mouseout', () => {
     $('#tooltips-heart').addClass("d-none")
 })
 
-//Services hover
-$('.img-services').each()
 
-
-
+//Scroll navbar
+$(window).on('scroll', () => {
+    if(window.pageYOffset > 0){
+        $('#navbar').addClass("py-0")
+    }
+    if( window.pageYOffset <= 0 ){
+        $('#navbar').removeClass("py-0")
+    }
+})

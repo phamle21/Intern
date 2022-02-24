@@ -61,8 +61,8 @@
 .wrap-testimonials{
     overflow: hidden;
 }
-#subscribe{
-    background-image: url('./img/Group-subscribe.jpg');
+#subscribe-body{
+    background-image: url('./img/Group\ 78.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -70,6 +70,7 @@
     border-top-left-radius: 150px;
     border-bottom-right-radius: 150px;
     color: #5E6282;
+    /* background-color: gray; */
 }
 #input-subscribe{
     /* width: 20em; */
@@ -92,4 +93,15 @@
 }
 .li-item-none-active{
     color: rgba(128, 128, 128, 0.555) !important;
+}
+#navbar{
+    backdrop-filter: blur(3px);
+    transition: all 0.5s;
+}
+.border-radius-30{
+    border-radius: 30px;
+}
+.border-radius-top-30{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
