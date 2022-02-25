@@ -3,15 +3,16 @@
 body {
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 16px;
     color: #5E6282;
 }
 
 #navbar {
-    font-family: 'Google Sans';
+    font-family: sans-serif;
     backdrop-filter: blur(5px);
     transition: all 0.5s;
+    font-weight: normal;
 }
 
 #hero {
@@ -26,11 +27,13 @@ body {
     cursor: pointer;
     text-shadow: 0 0 3px red;
 }
-
+.title-page{
+    font-family: Volkhov;
+    color: #14183E;
+}
 #title-hero {
     font-size: 50px;
     color: #181E4B;
-    font-family: Volkhov;
 }
 
 .title-jadoo {
@@ -48,10 +51,12 @@ body {
     min-height: 250px;
     cursor: pointer;
     z-index: 1;
+    transition: all 0.3s;
 }
 
 .img-services:hover {
-    box-shadow: 0px 5px 15px -5px gray;
+    box-shadow: 0px 5px 15px -5px orange;
+    transform: scale(1.01);
 }
 
 .img-services-hover {
@@ -66,6 +71,13 @@ body {
 }
 
 .card-destinations:hover {
+    box-shadow: 0 0 70px -20px gray;
+}
+.card-destinations{
+    transition: all 1s;
+}
+.card-destinations:hover {
+    transform: scale(1.01);
     color: orange;
     font-weight: bold;
 }
@@ -79,7 +91,9 @@ body {
     background-color: #f5f5f5;
     border-radius: 50%;
 }
-
+.book-title{
+    font-family: sans-serif;
+}
 .list-item-testimonials {
     display: none;
 }
