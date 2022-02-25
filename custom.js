@@ -80,9 +80,11 @@ $(document).ready(() => {
 //Icon Heart Hover
 $('#icon-heart-hover').on('mouseover', () => {
     $('#tooltips-heart').removeClass("d-none")
+    $('#icon-heart-hover').addClass("fa-solid")
 })
 $('#icon-heart-hover').on('mouseout', () => {
     $('#tooltips-heart').addClass("d-none")
+    $('#icon-heart-hover').removeClass("fa-solid")
 })
 
 

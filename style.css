@@ -156,3 +156,11 @@ body {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
+#footer li:hover, #navbar a:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+#icon-heart-hover:hover{
+    color: rgb(253, 76, 76);
+}
