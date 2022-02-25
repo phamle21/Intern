@@ -1,67 +1,102 @@
-#hero{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&family=Volkhov&display=swap');
+
+body {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5E6282;
+}
+
+#navbar {
+    font-family: 'Google Sans';
+    backdrop-filter: blur(5px);
+    transition: all 0.5s;
+}
+
+#hero {
     background-image: url('./img/Decore.png');
     background-size: cover;
     background-position: center center;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
-#playdemo:hover{
+
+#playdemo:hover {
     cursor: pointer;
     text-shadow: 0 0 3px red;
 }
-#title-hero{
+
+#title-hero {
     font-size: 50px;
     color: #181E4B;
-
+    font-family: Volkhov;
 }
-.title-jadoo{
+
+.title-jadoo {
     color: #181E4B;
 }
-#btn-findOutMore{
+
+#btn-findOutMore {
     border-radius: 10px;
     border: 0;
     outline: 0;
 }
-.img-services{
+
+.img-services {
     border-radius: 30px;
     min-height: 250px;
     cursor: pointer;
     z-index: 1;
 }
-.img-services:hover{
+
+.img-services:hover {
     box-shadow: 0px 5px 15px -5px gray;
 }
-.img-services-hover{
+
+.img-services-hover {
     position: absolute;
 }
-.img-destinations{
+
+.img-destinations {
     width: inherit;
     height: 400px !important;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.card-bookatrip{
+
+.card-destinations:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+.card-bookatrip {
     box-shadow: 0 0 20px -10px gray;
     border-radius: 30px;
 }
-.icon-bookatrip i{
+
+.icon-bookatrip i {
     background-color: #f5f5f5;
     border-radius: 50%;
 }
-.list-item-testimonials{
+
+.list-item-testimonials {
     display: none;
 }
-.show{
+
+.show {
     display: block;
 }
 
-.btn-testimonials:hover{
+.btn-testimonials:hover {
     background-color: #cecece;
 }
-.wrap-testimonials{
+
+.wrap-testimonials {
     overflow: hidden;
 }
-#subscribe-body{
+
+#subscribe-body {
     background-image: url('./img/Group\ 78.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -72,15 +107,17 @@
     color: #5E6282;
     /* background-color: gray; */
 }
-#input-subscribe{
+
+#input-subscribe {
     /* width: 20em; */
     border-radius: 10px;
 }
-#input-subscribe::placeholder{
+
+#input-subscribe::placeholder {
     font-family: 'Helvetica', FontAwesome, sans-serif;
-    
 }
-.hover-services{
+
+.hover-services {
     background-color: #DF6951;
     width: 100px;
     height: 100px;
@@ -88,20 +125,20 @@
     border-top-left-radius: 30px;
     border-bottom-right-radius: 15px;
 }
-.li-testimonials{
+
+.li-testimonials {
     cursor: pointer;
 }
-.li-item-none-active{
+
+.li-item-none-active {
     color: rgba(128, 128, 128, 0.555) !important;
 }
-#navbar{
-    backdrop-filter: blur(5px);
-    transition: all 0.5s;
-}
-.border-radius-30{
+
+.border-radius-30 {
     border-radius: 30px;
 }
-.border-radius-top-30{
+
+.border-radius-top-30 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
