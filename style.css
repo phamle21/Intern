@@ -74,7 +74,7 @@ body {
     box-shadow: 0 0 70px -20px gray;
 }
 .card-destinations{
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 .card-destinations:hover {
     transform: scale(1.01);
